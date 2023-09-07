@@ -1,0 +1,35 @@
+.todo-home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #212529;
+    border-radius: 0 0 100px 100px;
+
+    > div {
+        margin-top: 5em;
+
+        >h1{
+            font-size: 3rem;
+            color: white;
+        }
+    }
+
+    >main{
+        margin-top: 4em;
+        height: 25vh;
+
+        Button{
+            background-color: #1877F2;
+            color: white;
+            border: none;
+            border-left: 1px solid black;
+            width: 15%;
+
+            &:hover{
+                background-color: #3d8aef;
+            }
+        }
+    }
+}
+
